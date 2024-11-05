@@ -1,75 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-	<meta charset="utf-8">
-
-	<title>Big Shot Boxing</title>
-	<meta name="robots" content="noindex,nofollow" />
-	<meta id="viewport" name="viewport"
-		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="apple-mobile-web-app-capable" content="yes">
-
-
-	<link rel="shortcut icon" type="image/png" href="./favicon.png">
-
-	<!-- added this line for Poki -->
-	<!-- <script src="//game-cdn.poki.com/scripts/v2/poki-sdk.js"></script> -->
-
-
-	<script type="text/javascript" src="./BoxingPoki_customPreloader.js"></script>
-
-	<script>
-		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
-		if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
-			var meta = document.getElementById ("viewport");
-			meta.setAttribute ('noncontent', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+<html><head>
+	<meta charset="UTF-8">
+	<title>Basket Random - topVAZ games</title>
+	<meta name="robots" content="noindex,nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	
+	<meta name="generator" content="Construct 3">
+	
+		<link rel="manifest" href="appmanifest.json">
+	
+	
+	<link rel="stylesheet" href="https://historyedu1308.github.io/g8/basket-random/style.css">
+	
+	<script id="gamedistribution-jssdk" src="https://historyedu1308.github.io/g8/basket-random/js/main.min.js"></script><script>
+	window.addEventListener("keydown", function(e) {
+		// space and arrow keys
+		if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+			e.preventDefault();
 		}
-	</script>
-
-	<style>
-		html,
-		body {
-			margin: 0;
-			padding: 0;
-			height: 100%;
-			overflow: hidden;
-		}
-
-		/*<!-- #content { background: #000000; width: 100%; height: 100%; } --> */
-
-		/* !important is probably not needed here */
-		/* #noncontent { width: 100%; height: 100%; }
-        #noncontent canvas { width: 100% !important; height: 100% !important; }  /*needed */
-
-		/*
-        #noncontent { width: 100%; height:100%; }
-        #noncontent canvas { width: 100% !important; height:100% !important; }
-		*/
-		#noncontent {
-			background: #000000;
-			width: 100%;
-			height: 100%;
-		}
-
-		/* full stretch
-        #noncontent { width: 100%; height:100%; }
-        #noncontent canvas { width: 100% !important; height:100% !important; }
-		*/
-	</style>
-
-</head>
-
-<body>
-
-
-	<div id="noncontent"></div>
-
-	<script type="text/javascript">
-		lime.embed ("BoxingPoki_customPreloader", "noncontent", 600, 337);
-	</script>
-
-</body>
-
-</html>
+	}, false);
+	</script><style type="text/css" id="operaUserStyle"></style>
+	
+	<script src="https://historyedu1308.github.io/g8/basket-random/scripts/c3runtime.js"></script><style type="text/css"></style><script type="text/javascript" async="" src="js/null.js?https://www.google-analytics.com/analytics.js" id="gdsdk_google_analytics"></script><script type="text/javascript" async="" src="js/null.js?https://cdn.gamedock.io/gamedock-web-tracker/4.3.0/script/gamedock-sdk.min.js" id="GamedockSDK"></script><script type="text/javascript" async="" src="js/null.js" id="gdsdk_prebid"></script></head>
+	<body>
+	<div id="fb-root"></div>
+		<script src="https://historyedu1308.github.io/g8/basket-random/box2d.wasm.js"></script>
+		<noscript>
+			<div id="notSupportedWrap">
+				<h2 id="notSupportedTitle">This content requires JavaScript</h2>
+				<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+				<p class="notSupportedMessage">This game was developed with Construct. <a href="https://www.construct.net/en">Build your own games</a></p>
+			</div>
+		</noscript>
+		<script src="https://historyedu1308.github.io/g8/basket-random/scripts/supportcheck.js"></script>
+		<script src="https://historyedu1308.github.io/g8/basket-random/scripts/offlineclient.js"></script>
+		<script src="https://historyedu1308.github.io/g8/basket-random/scripts/main.js"></script><canvas width="1324" height="936" style="width: 1324px; height: 936px; margin-left: 0px; margin-top: 0px;"></canvas>
+		<script src="https://historyedu1308.github.io/g8/basket-random/scripts/register-sw.js"></script>
+	
+	</body></html>
